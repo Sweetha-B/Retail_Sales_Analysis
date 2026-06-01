@@ -1,7 +1,7 @@
 # Retail_Sales_Analysis
 
 ## 📌 Project Overview
-An end-to-end data analytics project designed to extract meaningful, actionable business insights from raw data. This project showcases the full data lifecycle: from importing and cleaning dirty data, handling missing values, calculating business metrics, to translating complex numbers into simple operational visuals.
+An end-to-end data analytics project on the Superstore Sales dataset (10,000+ rows) featuring complete data cleaning with Python Pandas, feature engineering including profit margin and month-over-month growth, exploratory data analysis uncovering 3 loss-making sub-categories and 2 underperforming regional segments, and an interactive Power BI KPI dashboard with 5 dynamic slicers delivering 4 evidence-backed business recommendations.
 
 ## 🛠️ Tech Stack & Tools
 - **Language:** Python (NumPy, Pandas)
