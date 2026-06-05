@@ -1,19 +1,41 @@
-# Retail_Sales_Analysis
+# Retail Sales Performance Analysis
 
-## 📌 Project Overview
-An end-to-end data analytics project on the Superstore Sales dataset (10,000+ rows) featuring complete data cleaning with Python Pandas, feature engineering including profit margin and month-over-month growth, exploratory data analysis uncovering 3 loss-making sub-categories and 2 underperforming regional segments, and an interactive Power BI KPI dashboard with 5 dynamic slicers delivering 4 evidence-backed business recommendations.
+End-to-end data analysis pipeline with interactive
+Power BI KPI dashboard for business decision making.
 
-## 🛠️ Tech Stack & Tools
-- **Language:** Python (NumPy, Pandas)
-- **BI Tool:** Power BI / Excel
-- **Analytics Methods:** Data Cleaning, Outlier Detection, Trend Forecasting, Aggregation
+## Tech Stack
+Python · Pandas · Excel · Power BI · Data Visualisation
 
-## 📊 Business Metrics Tracked
-- Core Performance Indicators (KPIs) defining operational success.
-- MoM (Month-over-Month) growth and distribution anomalies.
-- Demographic or category breakdowns highlighting underperforming segments.
+## Features
+- Cleaned and processed 10,000+ row Superstore dataset
+- Engineered profit margin and MoM growth features
+- Interactive Power BI dashboard with 5 dynamic slicers
+- Identified 3 loss-making sub-categories
+- 4 evidence-backed business recommendations
 
-## 📂 Repository Structure
-- `/data`: Raw and cleaned datasets used.
-- `/notebooks`: Python code documenting the step-by-step cleaning and evaluation process.
-- `/dashboards`: Interactive presentation layouts.
+## Project Structure
+```text
+├── data/
+│   └── superstore_sales.csv     # Raw dataset
+├── notebooks/
+│   └── analysis.ipynb           # EDA and feature engineering
+├── dashboard/
+│   └── sales_dashboard.pbix     # Power BI dashboard file
+└── reports/
+    └── business_recommendations.pdf
+```
+
+## Analysis Flow
+1. Data Cleaning: Null handling, type conversion, deduplication
+2. Feature Engineering: Profit margin, MoM growth, regional metrics
+3. EDA: Category, region and time-based analysis
+4. Dashboard: 5 dynamic slicers for date, category, region
+5. Recommendations: 4 actionable business strategies
+
+## Key Findings
+- 3 loss-making sub-categories identified
+- 2 underperforming regional segments found
+- Profit margin variance of 23% across categories
+
+## Contact
+Sweetha B | sweethab99@gmail.com 
